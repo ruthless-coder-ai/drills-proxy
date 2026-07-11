@@ -12,7 +12,7 @@
 // 5. 记下 Worker 的地址,形如 https://drills-proxy.你的子域.workers.dev
 //    把这个地址发给我,我把网页改成指向它。
 
-const RATE_LIMIT = 30;            // 每个 IP 每小时最多请求次数
+const RATE_LIMIT = 100;           // 每个 IP 每小时最多请求次数
 const ALLOWED_MODEL = "deepseek-chat";
 
 // 简易内存限流(Worker 实例级,够朋友圈规模用)
