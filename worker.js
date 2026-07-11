@@ -13,7 +13,7 @@
 //    把这个地址发给我,我把网页改成指向它。
 
 const RATE_LIMIT = 100;           // 每个 IP 每小时最多请求次数
-const ALLOWED_MODEL = "deepseek-v4-pro";
+const ALLOWED_MODEL = "deepseek-v4-flash";
 
 // 简易内存限流(Worker 实例级,够朋友圈规模用)
 const hits = new Map();
